@@ -17,10 +17,10 @@ Publications
       <tr>
           <td style="width:35%; vertical-align:middle; padding-right: 20px;">
               <div class="image-container">
-                 <img src="/images/SAM-FNet.png" width="90%"> 
+                 <img src="/images/SAM-FNet.png" width="120%"> 
               </div>
           </td>
-          <td style="width:65%; vertical-align:middle">
+          <td style="width:50%; vertical-align:middle">
               <papertext>
                   <papertitle> <strong>SAM-FNet: SAM-Guided Fusion Network for Laryngo-Pharyngeal Tumor Detection </strong></papertitle>
                   <br>
