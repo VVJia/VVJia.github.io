@@ -12,7 +12,7 @@ title                    : "Jia Wei"
 title_separator          : "-"
 name                     : &name "Jia Wei"
 description              : &description "personal description"
-url                      : https://bettycxh.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://github.com/VVJia
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 
@@ -21,7 +21,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "WechatIMG382.jpg"
+  avatar           : "VVJia.jpg"
   name             : "Jia Wei/魏佳"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
