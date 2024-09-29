@@ -20,7 +20,7 @@ Publications
                  <img src="/images/SAM-FNet.png" width="120%"> 
               </div>
           </td>
-          <td style="width:65%; vertical-align:middle">
+          <td style="width:50%; vertical-align:middle">
               <papertext>
                   <papertitle> <strong>SAM-FNet: SAM-Guided Fusion Network for Laryngo-Pharyngeal Tumor Detection </strong></papertitle>
                   <br>
