@@ -11,4 +11,4 @@ I received my Bachelor of Science in Computer Science and Technology from [Shenz
 
 You can view my CV here: [VVJia's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-Feel free to connect: [Email](provvvj@gmail.com) / [Github](https://github.com/VVJia)
+Feel free to connect: [Email](mailto:provvvj@gmail.com) / [Github](https://github.com/VVJia)
