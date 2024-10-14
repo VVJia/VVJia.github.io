@@ -34,3 +34,25 @@ Publications
           </td>
       </tr>
 </table>
+<br>
+<table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+          <td style="width:35%; vertical-align:middle; padding-right: 20px;">
+              <div class="image-container">
+                 <img src="/images/SAM_SWIN.png" width="100%"> 
+              </div>
+          </td>
+          <td style="width:65%; vertical-align:middle">
+              <papertext>
+                  <papertitle> <strong>SAM-SWIN: SAM-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection</strong></papertitle>
+                  <br>
+              <strong>Jia Wei</strong>, ***
+              <br>
+              ***
+              <br>
+              ***
+              </papertext>
+          </td>
+      </tr>
+</table>
+<br>
