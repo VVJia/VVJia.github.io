@@ -27,7 +27,7 @@ Publications
               <strong>Jia Wei</strong>,
               Yun Li, Meiyu Qiu, Hongyu Chen, Xiaomao Fan, Wenbin Lei
               <br>
-              2024 IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM 2024), Submitted
+              2024 IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM 2024)
               <br>
               <a href="https://arxiv.org/abs/2408.05426">[paper]</a>
               </papertext>
