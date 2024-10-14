@@ -44,7 +44,7 @@ Publications
           </td>
           <td style="width:65%; vertical-align:middle">
               <papertext>
-                  <papertitle> <strong>SAM-SWIN: SAM-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection</strong></papertitle>
+                  <papertitle> <strong>SAM-SWIN: SAM-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection (Coming Soon!)</strong></papertitle>
                   <br>
               <strong>Jia Wei</strong>, ***
               <br>
