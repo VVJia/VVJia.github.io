@@ -39,7 +39,7 @@ Publications
       <tr>
           <td style="width:35%; vertical-align:middle; padding-right: 20px;">
               <div class="image-container">
-                 <img src="/images/SAM_SWIN.png" width="100%"> 
+                 <img src="/images/SAM_SWIN.png" width="120%"> 
               </div>
           </td>
           <td style="width:65%; vertical-align:middle">
