@@ -39,18 +39,18 @@ Publications
       <tr>
           <td style="width:35%; vertical-align:middle; padding-right: 20px;">
               <div class="image-container">
-                 <img src="/images/SAM_SWIN.png" width="120%"> 
+                 <img src="/images/SAM_Swin.png" width="120%"> 
               </div>
           </td>
-          <td style="width:65%; vertical-align:middle">
+          <td style="width:50%; vertical-align:middle">
               <papertext>
-                  <papertitle> <strong>SAM-SWIN: SAM-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection (Coming Soon!)</strong></papertitle>
+                  <papertitle> <strong>SAM-Swin: SAM-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection</strong></papertitle>
                   <br>
-              <strong>Jia Wei</strong>, ***
+              <strong>Jia Wei</strong>, Yun Li, Xiaomao Fan, Wenjun Ma, Meiyu Qiu, Hongyu Chen, Wenbin Lei
               <br>
-              ***
+              The manuscript is submitted to Medical Image Analysis.
               <br>
-              ***
+              <a href="https://github.com/VVJia/SAM-Swin">[Github]</a>
               </papertext>
           </td>
       </tr>
