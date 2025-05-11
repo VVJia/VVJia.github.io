@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jia Wei (Javy)"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/javy.jpg"
   bio              : "Yale University"
   location         : "Shenzhen, China"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/VVJia"
+  github           : "VVJia"
   google_plus      :
   keybase          :
   instagram        :
