@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Research Assistant at Yale University, working under the supervision of [Prof. Xiaofeng Liu](https://medicine.yale.edu/profile/xiaofeng-liu/).
+I'm currently a Research Assistant at Yale University, supervised by [Prof. Xiaofeng Liu](https://medicine.yale.edu/profile/xiaofeng-liu/).
 
-I earned my Bachelor’s degree in Computer Science and Technology from [Shenzhen Technology University](https://www.sztu.edu.cn/), supervised by [Prof. Xiaomao Fan](https://scholar.google.com/citations?user=zDwIj2wAAAAJ&hl). During this period, I collaborated closely with [The First Affiliated Hospital, Sun Yat-sen University](https://www.fahsysu.org.cn/home) on joint research initiatives.
+I earned my Bachelor’s degree in Computer Science and Technology from [Shenzhen Technology University](https://www.sztu.edu.cn/), supervised by [Prof. Xiaomao Fan](https://scholar.google.com/citations?user=zDwIj2wAAAAJ&hl). During this period, I collaborated closely with [The First Affiliated Hospital, Sun Yat-sen University](https://www.fahsysu.org.cn/home) on joint research projects.
 
 My research focuses on **medical image analysis**, **AI for healthcare**, and **multimodal learning**. I am particularly driven to translate AI algorithms into real-world clinical applications to enhance patient care.
 
@@ -66,7 +66,7 @@ My research focuses on **medical image analysis**, **AI for healthcare**, and **
 - *2020.9 - 2024.6*, Bachelor of Computer Science and Technology, Shenzhen Technology University (SZTU)
 
 
-# 🎖 Honors and Awards
+# 🏆 Honors and Awards
 - *2024.01* Third Prize Scholarship (College of Big Data and Internet, SZTU)
 - *2022.12* Third Prize Scholarship (College of Big Data and Internet, SZTU)
 - *2020.10* Third Prize of Freshman Scholarship (SZTU)
