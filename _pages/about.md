@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Research Assistant at Yale University, working under the supervision of [Prof. Xiaofeng Liu](https://medicine.yale.edu/profile/xiaofeng-liu/).
+I am currently a Research Assistant at Yale University, working under the supervision of [Prof. Xiaofeng Liu](https://medicine.yale.edu/profile/xiaofeng-liu/).
 
 I earned my Bachelor’s degree in Computer Science and Technology from [Shenzhen Technology University](https://www.sztu.edu.cn/), supervised by [Prof. Xiaomao Fan](https://scholar.google.com/citations?user=zDwIj2wAAAAJ&hl). During this period, I collaborated closely with [The First Affiliated Hospital, Sun Yat-sen University](https://www.fahsysu.org.cn/home) on joint research initiatives.
 
@@ -30,7 +30,7 @@ My research focuses on **medical image analysis**, **AI for healthcare**, and **
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2025 Oral</div><img src='images/SAM_Swim.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2025 Oral</div><img src='images/mose.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Mixture-of-Shape-Experts (MoSE): End-to-End Shape Dictionary Framework to Prompt SAM for Generalizable Medical Segmentation](https://openaccess.thecvf.com/content/CVPR2025W/DG-EBF/html/Wei_Mixture-of-Shape-Experts_MoSE_End-to-End_Shape_Dictionary_Framework_to_Prompt_SAM_for_CVPRW_2025_paper.html)
@@ -64,6 +64,12 @@ My research focuses on **medical image analysis**, **AI for healthcare**, and **
 
 </div>
 </div>
+
+# 📖 Experience
+- *2024.11 - present*, Research Assistant, Yale University
+- *2024.7 - 2024.10*, Research Assistant, Shenzhen Technology University (SZTU)
+- *2020.9 - 2024.6*, Bachelor of Computer Science & Technology, Shenzhen Technology University (SZTU)
+
 
 # 🎖 Honors and Awards
 - *2024.01* Third Prize Scholarship (College of Big Data and Internet, SZTU)
