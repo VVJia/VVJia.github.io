@@ -55,7 +55,7 @@ My research focuses on **medical image analysis**, **AI for healthcare**, and **
 
 [SAM-FNet: SAM-Guided Fusion Network for Laryngo-Pharyngeal Tumor Detection](https://ieeexplore.ieee.org/abstract/document/10822832)
 
-**Jia Wei**, Yun Li, Meiyu Qiu, Hongyu Chen, Xiaomao Fan, Wenbin Lei
+**Jia Wei**, Yun Li, Meiyu Qiu, Hongyu Chen, Xiaomao Fan, and Wenbin Lei
 
 <!--
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
