@@ -62,8 +62,8 @@ My research focuses on **medical image analysis**, **AI for healthcare**, and **
 
 # 📖 Experience
 - *2024.11 - present*, Research Assistant, Yale University
-- *2024.7 - 2024.10*, Research Assistant, Shenzhen Technology University (SZTU)
-- *2020.9 - 2024.6*, Bachelor of Computer Science and Technology, Shenzhen Technology University (SZTU)
+- *2024.07 - 2024.10*, Research Assistant, Shenzhen Technology University (SZTU)
+- *2020.09 - 2024.06*, Bachelor of Computer Science and Technology, Shenzhen Technology University (SZTU)
 
 
 # 🏆 Honors and Awards
