@@ -25,8 +25,8 @@ My research focuses on **medical image analysis**, **AI for healthcare**, and **
 
 
 # 🔥 News
-- *2025.5*: &nbsp;🎉🎉 One paper is accepted by CVPRW 2025 as oral!
-- *2024.10*: &nbsp;🎉🎉 One paper is accepted by BIBM 2024! 
+- *2025.05*: &nbsp;🎉🎉 Our paper accepted to CVPRW 2025 (oral presentation)!
+- *2024.10*: &nbsp;🎉🎉 Our paper accepted to BIBM 2024! 
 
 # 📝 Publications
 
