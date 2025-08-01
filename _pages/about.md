@@ -82,7 +82,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
     <p><strong>Technical Implementation:</strong></p>
     <ul>
       <li>Developed in collaboration with The First Affiliated Hospital of Sun Yat-sen University</li>
-      <li>Built with [YOLOv8x-seg](https://github.com/ultralytics/ultralytics) for instance segmentation of laryngo-pharyngeal tumors</li>
+      <li>Built with <a href="https://github.com/ultralytics/ultralytics" target="_blank">YOLOv8x-seg</a> for instance segmentation of laryngo-pharyngeal tumors</li>
       <li>System architecture integrates image/video processing and real-time inference</li>
     </ul>
   </div>
