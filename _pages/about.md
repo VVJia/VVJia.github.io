@@ -21,8 +21,13 @@ I'm currently a Research Assistant at Yale University, supervised by [Prof. Xiao
 
 I earned my Bachelor’s degree in Computer Science and Technology from [Shenzhen Technology University](https://www.sztu.edu.cn/), supervised by [Prof. Xiaomao Fan](https://scholar.google.com/citations?user=zDwIj2wAAAAJ&hl). During this period, I collaborated closely with [The First Affiliated Hospital, Sun Yat-sen University](https://www.fahsysu.org.cn/home) on joint research projects.
 
-My research focuses on **medical image analysis**, **AI for healthcare**, and **multimodal learning**. I am particularly driven to translate AI algorithms into real-world clinical applications to enhance patient care.
+# 🔬 Research Interests
+My research focuses on:
+- Medical Image Analysis
+- AI for Healthcare
+- Multimodal Learning
 
+I am particularly driven to bridge AI innovation and clinical practice, translating algorithms into real-world applications that enhance patient outcomes.
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Our paper accepted to CVPRW 2025 (oral presentation)!
