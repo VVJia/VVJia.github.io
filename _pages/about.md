@@ -65,7 +65,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 </div>
 </div>
 
-# Project Demo: AI-Powered Tumor Diagnosis System
+# 🎥 Project Demo: AI-Powered Tumor Diagnosis System
 
 <div class="research-demo">
 <div class="warning-banner">
