@@ -89,11 +89,12 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
   </div>
 </div>
 
-
-# 📖 Experience
-- *2024.11 - present*, Research Assistant, Yale University
-- *2024.07 - 2024.10*, Research Assistant, Shenzhen Technology University (SZTU)
+# 🎓 Education
 - *2020.09 - 2024.06*, Bachelor of Computer Science and Technology, Shenzhen Technology University (SZTU)
+
+# 📖 Internships
+- *2024.11 - present*, BioMed Imaging Institute, Yale University, New Haven, USA
+- *2023.05 - 2024.10*, Medical Data Artificial Intelligence Laboratory, SZTU, Shenzhen, China
 
 
 # 🏆 Honors and Awards
