@@ -65,6 +65,30 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 </div>
 </div>
 
+# Project Demo: AI-Powered Tumor Diagnosis System
+
+<div class="research-demo">
+<div class="warning-banner">
+    <strong>⚠️ Viewer Discretion Advised:</strong> 
+    This demonstration contains medical imaging of tumors that some may find distressing.
+  </div>
+  
+  <video controls poster="images/demo_thumbnail.png" width="100%">
+    <source src="images/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <div class="tech-details">
+    <p><strong>Technical Implementation:</strong></p>
+    <ul>
+      <li>Developed in collaboration with The First Affiliated Hospital of Sun Yat-sen University</li>
+      <li>Built with YOLOv8x-seg for instance segmentation of laryngo-pharyngeal tumors</li>
+      <li>System architecture integrates image/video processing and real-time inference</li>
+    </ul>
+  </div>
+</div>
+
+
 # 📖 Experience
 - *2024.11 - present*, Research Assistant, Yale University
 - *2024.07 - 2024.10*, Research Assistant, Shenzhen Technology University (SZTU)
