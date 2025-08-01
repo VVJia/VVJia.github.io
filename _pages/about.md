@@ -31,6 +31,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Our paper accepted to CVPRW 2025 (oral presentation)!
+- *2024.11*: &nbsp;🎉🎉 Our paper accepted to CHIP 2024!
 - *2024.10*: &nbsp;🎉🎉 Our paper accepted to BIBM 2024! 
 
 # 📝 Publications
