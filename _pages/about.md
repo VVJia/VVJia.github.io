@@ -27,7 +27,7 @@ My research focuses on:
 - AI for Healthcare
 - Multimodal Learning
 
-I am particularly driven to bridge AI innovation and clinical practice, translating algorithms into real-world applications that enhance patient outcomes.
+I am particularly driven to bridge AI innovation and clinical practice, translating algorithms into real-world applications that enhance patient outcomes — as demonstrated in our collaborative tumor diagnosis system below! 👇✨.
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Our paper accepted to CVPRW 2025 (oral presentation)!
@@ -82,7 +82,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
     <p><strong>Technical Implementation:</strong></p>
     <ul>
       <li>Developed in collaboration with The First Affiliated Hospital of Sun Yat-sen University</li>
-      <li>Built with YOLOv8x-seg for instance segmentation of laryngo-pharyngeal tumors</li>
+      <li>Built with [YOLOv8x-seg](https://github.com/ultralytics/ultralytics) for instance segmentation of laryngo-pharyngeal tumors</li>
       <li>System architecture integrates image/video processing and real-time inference</li>
     </ul>
   </div>
