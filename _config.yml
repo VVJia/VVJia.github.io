@@ -24,11 +24,11 @@ author:
   name             : "Jia Wei (Javy)"
   avatar           : "images/javy.jpg"
   bio              : "Yale University"
-  location         : "Shenzhen, China"
+  location         : # "Shenzhen, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=jLLrtFQAAAAJ&hl"
-  email            : "jiawei.javy@gmail.com"
+  email            : "jia.wei.jw3332@yale.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
