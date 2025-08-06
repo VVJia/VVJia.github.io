@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm currently a Research Assistant at Yale University, supervised by [Prof. Xiaofeng Liu](https://medicine.yale.edu/profile/xiaofeng-liu/).
+I'm currently a Research Assistant at Yale University, advised by [Prof. Xiaofeng Liu](https://medicine.yale.edu/profile/xiaofeng-liu/).
 
 I earned my Bachelor’s degree in Computer Science and Technology from [Shenzhen Technology University](https://www.sztu.edu.cn/), supervised by [Prof. Xiaomao Fan](https://scholar.google.com/citations?user=zDwIj2wAAAAJ&hl). During this period, I collaborated closely with [The First Affiliated Hospital, Sun Yat-sen University](https://www.fahsysu.org.cn/home) on joint research projects.
 
