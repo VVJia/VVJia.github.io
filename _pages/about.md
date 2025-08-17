@@ -25,7 +25,8 @@ I earned my Bachelor’s degree in Computer Science and Technology from [Shenzhe
 My research focuses on:
 - Medical Image Analysis
 - AI for Healthcare
-- Multimodal Learning
+- Foundation Model
+- Domain Generalization
 
 I am particularly driven to bridge AI innovation and clinical practice, translating algorithms into real-world applications that enhance patient outcomes — as demonstrated in our collaborative tumor diagnosis system below! 👇✨(Note: Contains medical imagery that may require viewer discretion).
 
