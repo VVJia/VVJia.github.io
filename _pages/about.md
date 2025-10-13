@@ -48,7 +48,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MedIA Major Revision</div><img src='images/SAM_Swim.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MedIA Major Revision</div><img src='images/SAM_Swin.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SAM-Swin: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://arxiv.org/abs/2410.21813)
