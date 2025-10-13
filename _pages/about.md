@@ -31,6 +31,7 @@ My research focuses on:
 I am particularly driven to bridge AI innovation and clinical practice, translating algorithms into real-world applications that enhance patient outcomes — as demonstrated in our collaborative tumor diagnosis system below! 👇✨(Note: Contains medical imagery that may require viewer discretion).
 
 # 🔥 News
+- *2025.08*: &nbsp;🔄🔄 Our paper "SAM-Swin" is under major revision for Medical Image Analysis!
 - *2025.05*: &nbsp;🎉🎉 Our paper accepted to CVPRW 2025 (oral presentation)!
 - *2024.11*: &nbsp;🎉🎉 Our paper accepted to CHIP 2024!
 - *2024.10*: &nbsp;🎉🎉 Our paper accepted to BIBM 2024! 
@@ -47,10 +48,10 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIA Major Revision</div><img src='images/SAM_Swim.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MedIA Major Revision</div><img src='images/SAM_Swim.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SAM-Swim: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://arxiv.org/abs/2410.21813)
+[SAM-Swin: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://arxiv.org/abs/2410.21813)
 
 **Jia Wei**, Yun Li, Xiaomao Fan, Wenjun Ma, Meiyu Qiu, Hongyu Chen, and Wenbin Lei
 
