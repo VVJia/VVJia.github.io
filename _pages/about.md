@@ -51,7 +51,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MedIA</div><img src='images/SAM_Swin.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SAM-Swin: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://arxiv.org/abs/2410.21813)
+[SAM-Swin: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://kwnsfk27.r.eu-west-1.awstrack.me/L0/https:%2F%2Fauthors.elsevier.com%2Fc%2F1mHZZ4rfPmLfZn/1/0102019b294071a3-0d199396-4c3b-4e40-8fff-89d1c5839a6d-000000/6fa67Z0JBzG_fWfAQMljfXct-Es=457)
 
 **Jia Wei**, Yun Li, Xiaomao Fan, Wenjun Ma, Meiyu Qiu, Hongyu Chen, and Wenbin Lei
 
