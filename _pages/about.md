@@ -26,7 +26,6 @@ My research focuses on:
 - Medical Image Analysis
 - AI for Healthcare
 - Foundation Model
-- Domain Generalization
 
 I am particularly driven to bridge AI innovation and clinical practice, translating algorithms into real-world applications that enhance patient outcomes — as demonstrated in our collaborative tumor diagnosis system below! 👇✨(Note: Contains medical imagery that may require viewer discretion).
 
@@ -51,7 +50,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MedIA</div><img src='images/SAM_Swin.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SAM-Swin: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://kwnsfk27.r.eu-west-1.awstrack.me/L0/https:%2F%2Fauthors.elsevier.com%2Fc%2F1mHZZ4rfPmLfZn/1/0102019b294071a3-0d199396-4c3b-4e40-8fff-89d1c5839a6d-000000/6fa67Z0JBzG_fWfAQMljfXct-Es=457)
+[SAM-Swin: Sam-Driven Dual-Swin Transformers with Adaptive Lesion Enhancement for Laryngo-Pharyngeal Tumor Detection](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004529)
 
 **Jia Wei**, Yun Li, Xiaomao Fan, Wenjun Ma, Meiyu Qiu, Hongyu Chen, and Wenbin Lei
 
@@ -95,7 +94,7 @@ I am particularly driven to bridge AI innovation and clinical practice, translat
 - *2020.09 - 2024.06*, Bachelor of Computer Science and Technology, Shenzhen Technology University (SZTU)
 
 # 📖 Internships
-- *2024.11 - present*, BioMed Imaging Institute, Yale University, New Haven, USA
+- *2024.11 - 2026.07*, BioMed Imaging Institute, Yale University, New Haven, USA
 - *2023.05 - 2024.10*, Medical Data Artificial Intelligence Laboratory, SZTU, Shenzhen, China
 
 
