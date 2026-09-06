@@ -10,14 +10,14 @@ export const site = {
   avatar: '/images/javy.jpg',
   university: 'Yale University',
   researchInterests: [
-    'Large language models',
+    'Foundation models',
     'Multimodal foundation models',
     'Hyperbolic representation learning',
     'Medical image analysis',
     'AI for healthcare',
   ],
   intro: [
-    'I recently completed a research assistantship at Yale University under the supervision of Prof. Xiaofeng Liu.',
+    'I recently completed a research assistantship at Yale University under the mentorship of Prof. Xiaofeng Liu.',
     "I earned my bachelor's degree in Computer Science and Technology from Shenzhen Technology University, where I was supervised by Prof. Xiaomao Fan. I also collaborated with The First Affiliated Hospital, Sun Yat-sen University, on joint research projects.",
   ],
   news: [
