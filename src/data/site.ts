@@ -6,7 +6,7 @@ export const site = {
     'Jia Wei (Javy) is a researcher working at the intersection of medical image analysis, healthcare AI, and foundation models.',
   email: 'jiawei.javy@gmail.com',
   github: 'https://github.com/VVJia',
-  scholar: 'https://scholar.google.com/citations?user=jLLrtFQAAAAJ&hl',
+  scholar: 'https://scholar.google.com/citations?user=jLLrtFQAAAAJ&hl=en',
   avatar: '/images/javy.jpg',
   university: 'Yale University',
   researchInterests: [
@@ -132,3 +132,4 @@ export const publications = [
     ].join('\n'),
   },
 ].sort((a, b) => b.year - a.year);
+

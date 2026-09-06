@@ -1,8 +1,26 @@
 {
-  "status": "unavailable",
-  "updatedAt": null,
-  "citedby": null,
-  "hindex": null,
-  "i10index": null,
-  "publications": {}
+  "status": "ok",
+  "updatedAt": "2026-09-06T11:53:29Z",
+  "citedby": 31,
+  "hindex": 3,
+  "i10index": 3,
+  "publications": {
+    "jLLrtFQAAAAJ:Y0pCki6q_DkC": {
+      "title": "Mixture-of-Shape-Experts (MoSE): End-to-End Shape Dictionary Framework to Prompt SAM for Generalizable Medical Segmentation",
+      "num_citations": 14
+    },
+    "jLLrtFQAAAAJ:zYLM7Y9cAGgC": {
+      "title": "Sam-fnet: Sam-guided fusion network for laryngo-pharyngeal tumor detection",
+      "num_citations": 9
+    },
+    "jLLrtFQAAAAJ:ufrVoPGSRksC": {
+      "title": "SAM-Swin: SAM-driven dual-swin transformers with adaptive lesion enhancement for laryngo-pharyngeal tumor detection",
+      "num_citations": 8
+    },
+    "jLLrtFQAAAAJ:2osOgNQ5qMEC": {
+      "title": "Prompt-Aware Large Language Model for Sleep Stages Classification",
+      "num_citations": 0
+    }
+  }
 }
+
