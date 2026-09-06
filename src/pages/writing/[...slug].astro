@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { formatDate } from '../../utils/writing';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+<Layout title={post.data.title} description={post.data.description ?? post.data.title}>
+  <article class="article-shell">
+    <header class="article-header">
+      <div class="publication-meta"><span>{post.data.category}</span><span>· {post.data.lang.toUpperCase()}</span></div>
+      <h1>{post.data.title}</h1>
+      <p><time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time></p>
+    </header>
+    <div class="article-body"><Content /></div>
+  </article>
+</Layout>

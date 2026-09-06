@@ -1,0 +1,120 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import PublicationCard from '../components/PublicationCard.astro';
+import ScholarStats from '../components/ScholarStats.astro';
+import WritingCard from '../components/WritingCard.astro';
+import { site, publications } from '../data/site';
+import { sortPosts } from '../utils/writing';
+
+const posts = sortPosts(await getCollection('writing', ({ data }) => !data.draft)).slice(0, 3);
+---
+<Layout title={site.name}>
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div>
+        <div class="eyebrow">Researcher · Medical AI · Foundation Models</div>
+        <h1>{site.name}</h1>
+        <p class="hero-lede">{site.description}</p>
+      </div>
+      <div class="hero-side">
+        <img class="avatar" src={site.avatar} alt="Portrait of Jia Wei" width="150" height="150" />
+        <div class="identity">
+          <strong>{site.role}</strong>
+          <span>{site.university}</span>
+        </div>
+        <div class="contact-links">
+          <a href={'mailto:' + site.email}>Email</a>
+          <a href={site.github} target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href={site.scholar} target="_blank" rel="noreferrer">Scholar ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="shell two-col">
+      <div>
+        <div class="section-kicker">About</div>
+        <div class="prose">
+          {site.intro.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+      </div>
+      <div>
+        <div class="section-kicker">Research interests</div>
+        <ul class="interest-list">
+          {site.researchInterests.map((interest) => <li>{interest}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="selected-work">
+    <div class="shell">
+      <div class="section-heading">
+        <h2>Selected work</h2>
+        <a href="/publications/">All publications →</a>
+      </div>
+      <div class="publication-list">
+        {publications.map((publication, index) => <PublicationCard publication={publication} featured={index === 0} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="updates">
+    <div class="shell two-col">
+      <div>
+        <div class="section-kicker">News</div>
+        <ul class="news-list">
+          {site.news.map((item) => <li><time datetime={item.date}>{item.date}</time><span>{item.text}</span></li>)}
+        </ul>
+      </div>
+      <div>
+        <div class="section-kicker">Writing</div>
+        {posts.length ? (
+          <div class="writing-list">
+            {posts.map((post) => <WritingCard post={post} />)}
+          </div>
+        ) : (
+          <p class="empty-state">Research notes and personal essays will appear here as they are published. <a class="text-link" href="/writing/">Visit Writing →</a></p>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="shell two-col">
+      <div>
+        <div class="section-kicker">Education & experience</div>
+        <ul class="timeline">
+          {site.internships.map((item) => <li><time>{item.period}</time><span><strong>{item.title}</strong><br />{item.place}</span></li>)}
+          {site.education.map((item) => <li><time>{item.period}</time><span><strong>{item.title}</strong><br />{item.place}</span></li>)}
+        </ul>
+      </div>
+      <div>
+        <div class="section-kicker">Honors</div>
+        <ul class="award-list">
+          {site.awards.map((item) => <li><time>{item.date}</time><span>{item.text}</span></li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="demo">
+    <div class="shell demo">
+      <div>
+        <div class="section-kicker">Project demo</div>
+        <h2>AI-powered tumor diagnosis</h2>
+        <video controls preload="metadata" poster="/images/demo_thumbnail.png" playsinline>
+          <source src="/images/demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="demo-copy">
+        <p class="notice"><strong>Viewer discretion advised.</strong> This demonstration contains medical images of tumors that some viewers may find distressing.</p>
+        <p class="muted">Developed in collaboration with The First Affiliated Hospital, Sun Yat-sen University. The system uses <a class="text-link" href="https://github.com/ultralytics/ultralytics" target="_blank" rel="noreferrer">YOLOv8x-seg ↗</a> for instance segmentation and integrates image and video processing with real-time inference.</p>
+        <a class="text-link" href="/images/demo.mp4">Open demo video ↗</a>
+      </div>
+    </div>
+  </section>
+</Layout>
