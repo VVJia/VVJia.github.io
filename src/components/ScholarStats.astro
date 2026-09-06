@@ -1,0 +1,24 @@
+---
+import { site } from '../data/site';
+import { formatStat, scholar } from '../utils/scholar';
+
+const isFresh = scholar.updatedAt && Date.now() - new Date(scholar.updatedAt).getTime() <= 7 * 24 * 60 * 60 * 1000;
+const updatedLabel = scholar.updatedAt
+  ? new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(scholar.updatedAt))
+  : null;
+---
+<aside class="scholar-panel" aria-label="Google Scholar statistics">
+  <div class="section-kicker">Scholar snapshot</div>
+  {scholar.status === 'ok' && scholar.updatedAt ? (
+    <>
+      <div class="stat-grid">
+        <div><strong>{formatStat(scholar.citedby)}</strong><span>Citations</span></div>
+        <div><strong>{formatStat(scholar.hindex)}</strong><span>h-index</span></div>
+        <div><strong>{formatStat(scholar.i10index)}</strong><span>i10-index</span></div>
+      </div>
+      <p class:list={{ 'stale-note': !isFresh }}>Updated {updatedLabel}{!isFresh && ' · update pending'}</p>
+    </>
+  ) : (
+    <p class="muted">Citation data will appear after the first Scholar sync. <a href={site.scholar} target="_blank" rel="noreferrer">Open profile ↗</a></p>
+  )}
+</aside>

@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PublicationCard from '../components/PublicationCard.astro';
+import ScholarStats from '../components/ScholarStats.astro';
+import { publications } from '../data/site';
+---
+<Layout title="Publications" description="Selected publications by Jia Wei (Javy).">
+  <section class="page-intro">
+    <div class="shell">
+      <div class="eyebrow">Research archive</div>
+      <h1>Publications</h1>
+      <p>Selected work on medical image analysis and foundation-model-assisted healthcare AI.</p>
+    </div>
+  </section>
+  <section class="page-section">
+    <div class="shell two-col">
+      <div class="publication-list">
+        {publications.map((publication) => <PublicationCard publication={publication} />)}
+      </div>
+      <ScholarStats />
+    </div>
+  </section>
+</Layout>

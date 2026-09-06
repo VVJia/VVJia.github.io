@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import WritingCard from '../../components/WritingCard.astro';
+import { sortPosts } from '../../utils/writing';
+
+const posts = sortPosts(await getCollection('writing', ({ data }) => !data.draft));
+---
+<Layout title="Writing" description="Research notes and personal essays by Jia Wei.">
+  <section class="page-intro">
+    <div class="shell">
+      <div class="eyebrow">Notes & essays</div>
+      <h1>Writing</h1>
+      <p>A space for research notes, technical reflections, and personal essays. Posts can be written in English or Chinese.</p>
+    </div>
+  </section>
+  <section class="page-section">
+    <div class="shell">
+      {posts.length ? (
+        <div class="writing-list">
+          {posts.map((post) => <WritingCard post={post} />)}
+        </div>
+      ) : (
+        <div class="empty-state">
+          <p>No published notes yet. Add a Markdown file to <code>src/content/writing/</code> to publish the first one.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>

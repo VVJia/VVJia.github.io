@@ -1,0 +1,35 @@
+---
+import { site } from '../data/site';
+
+const pathname = Astro.url.pathname;
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/publications/', label: 'Publications' },
+  { href: '/writing/', label: 'Writing' },
+];
+---
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="/" aria-label={site.name + ' home'}>
+      <span class="wordmark-mark">JW</span>
+      <span>{site.shortName}</span>
+    </a>
+    <details class="nav-disclosure">
+      <summary aria-label="Open navigation">Menu</summary>
+      <nav aria-label="Primary navigation">
+        {links.map((link) => (
+          <a href={link.href} class:list={{ active: pathname === link.href }} aria-current={pathname === link.href ? 'page' : undefined}>
+            {link.label}
+          </a>
+        ))}
+      </nav>
+    </details>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      {links.map((link) => (
+        <a href={link.href} class:list={{ active: pathname === link.href }} aria-current={pathname === link.href ? 'page' : undefined}>
+          {link.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>

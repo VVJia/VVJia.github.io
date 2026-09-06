@@ -1,0 +1,13 @@
+---
+import { site } from '../data/site';
+---
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <p>© {new Date().getFullYear()} {site.name}</p>
+    <div class="footer-links">
+      <a href={'mailto:' + site.email}>Email</a>
+      <a href={site.github} target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a href={site.scholar} target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</footer>
