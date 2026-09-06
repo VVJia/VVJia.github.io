@@ -21,6 +21,7 @@ Build the static output with pnpm build. The build is written to dist/. The Depl
 
 ## Google Scholar updates
 
-Add the Google Scholar profile ID as the repository secret GOOGLE_SCHOLAR_ID. The Update Google Scholar stats workflow runs daily at 08:00 UTC and can also be started manually. It commits only successful snapshots to src/data/scholar.json; a blocked or failed Scholar request does not clear existing numbers.
+The profile ID jLLrtFQAAAAJ is configured as the default source for the Scholar sync. The optional repository secret GOOGLE_SCHOLAR_ID can override it if the profile changes. The Update Google Scholar stats workflow runs daily at 08:00 UTC and can also be started manually. It commits only successful snapshots to src/data/scholar.json; a blocked or failed Scholar request does not clear existing numbers.
 
 The older Jekyll template files remain in the repository history as a rollback reference. They are not used by the Astro build.
+
