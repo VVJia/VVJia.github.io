@@ -1,4 +1,4 @@
-name: Deploy Astro site
+name: Deploy hidden site
 
 on:
   push:
@@ -18,25 +18,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the site
-        uses: actions/checkout@v4
-
-      - name: Set up pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 11
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build site
-        run: pnpm build
+      - name: Prepare hidden Pages artifact
+        run: |
+          mkdir -p dist
+          cat > dist/404.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <meta name="robots" content="noindex, nofollow, noarchive">
+              <title>404 - Not Found</title>
+            </head>
+            <body>
+              <h1>404</h1>
+              <p>Not Found</p>
+            </body>
+          </html>
+          EOF
+          cat > dist/robots.txt <<'EOF'
+          User-agent: *
+          Disallow: /
+          EOF
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -53,4 +56,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
